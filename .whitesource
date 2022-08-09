@@ -18,5 +18,15 @@
     "workflowRules": {
       "enabled": true
     }
-  }
+  },
+  "hostRules": [
+    {
+    "matchHost": "https://wsjfrogdemo.jfrog.io/artifactory/mvncentral-remote",
+    "hostType": "maven",
+    "username": "suren.gundumalla@whitesourcesoftware.com",
+    "encrypted": {
+        "password": "wcBMA8xOaBJvzJNbAQf/Sk2QhnkK/+PtnUptA6FgvSO0hFbJZnAcukJ471zdTXANoSj0Yelmwo9jjWqOyqU02OYm2htPDAHDZHIHeztonO9OlMtWZZoUxggRZjzfO3vRD8sf2QtnIyX71/XCNHMru/qVta8whsFI0dqD6QaYACiJwRnCHuo45cnAbKI6WwNWmGQ7agBefy5xmPjFG0DUMgaZq5K8AZwxFMDPBqEBU7JFh5c3vcpgSrRZYkyTanhwrDjd3s5oEkFe/Hb4Qlb06hL1rvHq0cpssc7sHxu2Y35kWo1XXTr1/9u3N0huSVKZ/E4JOkc3W+sYTJK1ntqhsSwgxzFgSUAOof/vekDvyNJlAfwjZSLt2UpxaubGxcGtwxkHmPD80bCMHXCHanpYSx063nWdvAxipctVL32W0/WKrMmR4LpbrSdX1ObBLcIRRYpqmigOx/us6tqzM2wVWDWmvxSy7h9eClWxiL+5NMrH/sISWTM"
+        }
+    }
+]
 }
